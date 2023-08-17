@@ -1,0 +1,117 @@
+@media screen and (max-width:576px){
+            
+             
+             .nav-container{
+                flex-direction: column;
+             }
+             .nav-item{
+                flex-direction: column;
+             }
+            
+             
+
+
+
+
+
+    /* nav{
+        padding: 0px;
+    
+    }
+    body{
+        width: auto;
+        height: 100%;
+    }
+    .nav-container,
+    .container
+    {
+        flex-direction: column;
+       
+    
+    }
+
+    .nav-item{
+        flex-direction: column; */
+        /* padding: 50px; */
+        /* padding: 0px; */
+       
+    /* } */
+    
+    
+    /* commnted now .logo-img{
+     
+        width: 262px;
+        
+    } */
+    .card-title{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card-img{
+        flex-direction: column;
+        
+    }
+    /* commented now .banner-container{
+        flex-direction: column-reverse;
+        width: 165%;
+        height: 775px;
+        align-items: center;
+        margin-top:550px;
+        
+
+    } */
+    .banner-description{
+        margin-top: 200px;
+        align-items: center;
+        padding: 0px;
+        
+    }
+   
+     
+      .card{
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: right;
+        
+     }
+     .icon-main
+     {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+     }
+
+     .footer-container,
+     .footer-img,
+     .footer-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        align-items: center;
+     
+     }
+}
+
+
+/* @media screen and (min-width:576px) and (max-width: 960px) {
+    header {
+        padding: 50px;
+       
+    }
+
+    nav,
+    .nav-container,
+    .nav-item,
+    .logo-img,
+    .banner-container,
+    .banner-description,
+    .card-title,
+    .card-img,
+    .card,
+    .icon-main,
+    .footer-container,
+    .footer-img,
+    .footer-list{
+        flex-direction: column;
+    }
+} */

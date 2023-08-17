@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container{
+            border: 2px solid salmon;
+            display: flex; 
+            /* justify-content: space-around; */
+            /* align-items: center; */
+            flex-direction: row-reverse;
+            height: 250px;
+            flex-wrap: wrap;
+
+
+            /* justify-content: flex-start; */
+        }
+        .box{
+            border: 2px dashed tomato;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>flexbox layout</h1>
+    <div class="container">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+        <div class="box">Box4</div>
+        <div class="box">Box5</div>
+        <div class="box">Box6</div>
+        
+        
+
+
+    </div>
+</body>
+</html>
